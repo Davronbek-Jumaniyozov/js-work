@@ -1,5 +1,5 @@
 // If-20
-let n = 56987;
+let n = 12345;
 
 let a = n / 10000;
 
@@ -15,13 +15,13 @@ let a3 = Math.floor(b3/10);
 let a4 = n%10;
 
 if(a > a1 && a > a2 && a > a3 && a > a4){
-  console.log(a);
+  console.log(a, 5);
 } else if(a1 > a && a1 > a2 && a1 > a3 && a1 > a4) {
-  console.log(a1);
+  console.log(a1, 4);
 } else if(a2 > a && a2 > a1 && a2 > a3 && a2 > a4) {
-  console.log(a2);
+  console.log(a2, 3);
 } else if(a3 > a && a3 > a1 && a3 > a2 && a3 > a4) {
-  console.log(a3);
+  console.log(a3, 2);
 } else if(a4 > a && a4 > a1 && a4 > a2 && a4 > a3) {
-  console.log(a4);
+  console.log(a4, 1);
 };

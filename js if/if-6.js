@@ -1,11 +1,9 @@
 // If-6
-let x = 6;
+let x = 0;
 let fx;
-if(x < -2 && x > 2) {
-  fx = 2 * x;
+if(x < -2  || x > 2) {
+  console.log(x*2);;
 } else {
-  fx = x * -3;
+  console.log(x*(-3));
 }
-console.log(fx)
 
-// to'g'ri ishlay olmadim :)
