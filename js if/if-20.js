@@ -12,7 +12,7 @@ let a2 = b2 % 10;
 let b3 = n % 100;
 let a3 = Math.floor(b3/10);
 
-let a4 = n%10;
+let a4 = n % 10;
 
 if(a > a1 && a > a2 && a > a3 && a > a4){
   console.log(a, 5);
