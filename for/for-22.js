@@ -9,6 +9,6 @@ for (let i = 1; i <= n; i++) {
     k *= j;
   }
 
-  s += 1/k;
+  s += k;
 }
 console.log(s);
